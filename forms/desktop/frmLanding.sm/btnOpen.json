@@ -5,6 +5,10 @@
         "type": "string",
         "value": "55dp"
     },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
     "_margin_": [
         0,
         0,
@@ -20,6 +24,10 @@
     ],
     "_percent_": true,
     "_skin_": "s0af8d6052984756abe618b56a42447b",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
     "_width_": {
         "type": "string",
         "value": "55dp"
@@ -34,7 +42,7 @@
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "btnOpenBrowser",
+    "id": "btnOpen",
     "info": null,
     "isvisible": true,
     "kuid": "hcb2a3d08e404380bac2c7467df84dec",

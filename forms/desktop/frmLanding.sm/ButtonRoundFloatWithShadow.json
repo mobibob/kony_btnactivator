@@ -53,7 +53,7 @@
     "kuid": "f973f330ee9f4333a7995fb55cf355a8",
     "masterType": 1,
     "name": "kony.ui.Button",
-    "parent": "btnOpenBrowser",
+    "parent": "btnOpen",
     "pf": "frmLanding",
     "tooltip": "Chat with Shari",
     "wType": "Button",

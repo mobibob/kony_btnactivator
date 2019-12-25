@@ -52,7 +52,7 @@
     "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.FlexContainer",
-    "parent": "btnOpenBrowser",
+    "parent": "btnOpen",
     "pf": "frmLanding",
     "reverselayoutdirection": false,
     "snapgridsize": 10,
