@@ -8,6 +8,12 @@ jssrc/
 # Binaries Ex:*.apk,*.KAR,
 binaries/
 
+# KonyFabric - reintegrate locally ???
+Fabric/
+
+# Actions are auto-generated during build ???
+actions/
+
 # Other Visualizer auto-generated files.
 middleware.properties
 modules/kony_sdk.js

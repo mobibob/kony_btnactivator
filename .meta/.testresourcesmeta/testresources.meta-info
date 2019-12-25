@@ -1,0 +1,128 @@
+{
+    "HEAD": "c7b4cb34d6e74f04b571c04805e6e7d1",
+    "a0a8c3da17f34fe2848d2f4de93b8127": {
+        "extension": "js",
+        "kuid": "a0a8c3da17f34fe2848d2f4de93b8127",
+        "name": "customReporter.js",
+        "parent": "j4d7f8f8ccd7429d86a71f8af6b61b1e",
+        "type": "F"
+    },
+    "c257f0ae826541c2a24bbda7671f03b1": {
+        "extension": "js",
+        "kuid": "c257f0ae826541c2a24bbda7671f03b1",
+        "name": "automationStartup.js",
+        "parent": "db0c3a7d3432458ca0e856813b7364b4",
+        "type": "F"
+    },
+    "c7b4cb34d6e74f04b571c04805e6e7d1": {
+        "children": [
+            "e7a08422567c4684b03555e1723f9bff",
+            "d47d6d41100c4146a9489c72610375ab"
+        ],
+        "kuid": "c7b4cb34d6e74f04b571c04805e6e7d1",
+        "name": "testresources",
+        "type": "D"
+    },
+    "d47d6d41100c4146a9489c72610375ab": {
+        "children": [
+            "j3af5292ebc34d8ca46439a763ba2d61",
+            "f90e6e046146417e85ca748cac6e9d80",
+            "h48becbad75f41a1852504794e7a6f55",
+            "d9b0261ec4a84d20b5c889fe6106f13f"
+        ],
+        "kuid": "d47d6d41100c4146a9489c72610375ab",
+        "name": "TestNG",
+        "parent": "c7b4cb34d6e74f04b571c04805e6e7d1",
+        "type": "D"
+    },
+    "d9b0261ec4a84d20b5c889fe6106f13f": {
+        "children": [],
+        "kuid": "d9b0261ec4a84d20b5c889fe6106f13f",
+        "name": "Tablet",
+        "parent": "d47d6d41100c4146a9489c72610375ab",
+        "type": "D"
+    },
+    "db0c3a7d3432458ca0e856813b7364b4": {
+        "children": [
+            "c257f0ae826541c2a24bbda7671f03b1"
+        ],
+        "kuid": "db0c3a7d3432458ca0e856813b7364b4",
+        "name": "Desktop",
+        "parent": "e7a08422567c4684b03555e1723f9bff",
+        "type": "D"
+    },
+    "e7a08422567c4684b03555e1723f9bff": {
+        "children": [
+            "j4d7f8f8ccd7429d86a71f8af6b61b1e",
+            "db0c3a7d3432458ca0e856813b7364b4",
+            "f5d42f85d1524c90b5f1afb080e0a7f3",
+            "j6bd1466a4574f9899109663c4f4f5d7"
+        ],
+        "kuid": "e7a08422567c4684b03555e1723f9bff",
+        "name": "Jasmine",
+        "parent": "c7b4cb34d6e74f04b571c04805e6e7d1",
+        "type": "D"
+    },
+    "f455a7e7f5514ec8b8c2936c98cbb1cf": {
+        "extension": "js",
+        "kuid": "f455a7e7f5514ec8b8c2936c98cbb1cf",
+        "name": "automationStartup.js",
+        "parent": "j6bd1466a4574f9899109663c4f4f5d7",
+        "type": "F"
+    },
+    "f5d42f85d1524c90b5f1afb080e0a7f3": {
+        "children": [
+            "hbdc542317904ec68648971327c5d80a"
+        ],
+        "kuid": "f5d42f85d1524c90b5f1afb080e0a7f3",
+        "name": "Mobile",
+        "parent": "e7a08422567c4684b03555e1723f9bff",
+        "type": "D"
+    },
+    "f90e6e046146417e85ca748cac6e9d80": {
+        "children": [],
+        "kuid": "f90e6e046146417e85ca748cac6e9d80",
+        "name": "Desktop",
+        "parent": "d47d6d41100c4146a9489c72610375ab",
+        "type": "D"
+    },
+    "h48becbad75f41a1852504794e7a6f55": {
+        "children": [],
+        "kuid": "h48becbad75f41a1852504794e7a6f55",
+        "name": "Mobile",
+        "parent": "d47d6d41100c4146a9489c72610375ab",
+        "type": "D"
+    },
+    "hbdc542317904ec68648971327c5d80a": {
+        "extension": "js",
+        "kuid": "hbdc542317904ec68648971327c5d80a",
+        "name": "automationStartup.js",
+        "parent": "f5d42f85d1524c90b5f1afb080e0a7f3",
+        "type": "F"
+    },
+    "j3af5292ebc34d8ca46439a763ba2d61": {
+        "children": [],
+        "kuid": "j3af5292ebc34d8ca46439a763ba2d61",
+        "name": "Common",
+        "parent": "d47d6d41100c4146a9489c72610375ab",
+        "type": "D"
+    },
+    "j4d7f8f8ccd7429d86a71f8af6b61b1e": {
+        "children": [
+            "a0a8c3da17f34fe2848d2f4de93b8127"
+        ],
+        "kuid": "j4d7f8f8ccd7429d86a71f8af6b61b1e",
+        "name": "Common",
+        "parent": "e7a08422567c4684b03555e1723f9bff",
+        "type": "D"
+    },
+    "j6bd1466a4574f9899109663c4f4f5d7": {
+        "children": [
+            "f455a7e7f5514ec8b8c2936c98cbb1cf"
+        ],
+        "kuid": "j6bd1466a4574f9899109663c4f4f5d7",
+        "name": "Tablet",
+        "parent": "e7a08422567c4684b03555e1723f9bff",
+        "type": "D"
+    }
+}
