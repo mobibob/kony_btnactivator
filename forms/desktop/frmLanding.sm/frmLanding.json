@@ -58,6 +58,7 @@
     "device": "desktopweb",
     "displayorientation": 1,
     "enabledforidletimeout": false,
+    "friendlyName": "Landing Page",
     "id": "frmLanding",
     "info": null,
     "initdone": false,

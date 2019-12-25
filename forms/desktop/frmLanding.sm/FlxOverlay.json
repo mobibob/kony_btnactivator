@@ -36,7 +36,7 @@
         "value": "50%"
     },
     "children": [],
-    "clipbounds": false,
+    "clipbounds": true,
     "containerweight": 100,
     "controllerInfo": {
         "default": {
@@ -47,13 +47,14 @@
     "enablescrolling": true,
     "id": "FlxOverlay",
     "info": null,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "d6b90dafcc1949338fe052ab663f3d7a",
     "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.FlexContainer",
     "parent": "btnOpenBrowser",
     "pf": "frmLanding",
+    "reverselayoutdirection": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",

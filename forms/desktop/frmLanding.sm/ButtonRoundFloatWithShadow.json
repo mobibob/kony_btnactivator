@@ -1,6 +1,9 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
+    "Default": {
+        "displayText": true
+    },
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
@@ -18,6 +21,7 @@
         0,
         0
     ],
+    "_render_": true,
     "_skin_": "scac01a1b2b84ba48dc2893857f55bdf",
     "_text_": "Surf",
     "_width_": {
@@ -35,11 +39,17 @@
     },
     "containerweight": 100,
     "contentalignment": 5,
-    "displaytext": false,
+    "desktopweb": {
+        "render": true
+    },
+    "displaytext": true,
     "focusskin": "s7fd3dd28495469ca141a2c5639e005f",
     "id": "ButtonRoundFloatWithShadow",
     "info": null,
     "isvisible": true,
+    "kiosk": {
+        "render": true
+    },
     "kuid": "f973f330ee9f4333a7995fb55cf355a8",
     "masterType": 1,
     "name": "kony.ui.Button",

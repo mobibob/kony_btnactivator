@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "96.97%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -26,7 +26,7 @@
     "_skin_": "s82542a256e5418ea2725daa7b58146f",
     "_top_": {
         "type": "string",
-        "value": "-16.97%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -44,15 +44,16 @@
     "id": "flxFrameBrowser",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "g5b1901d265048648d0f7dc8df54fb29",
-    "layouttype": 2,
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
     "parent": "flxOverlayBrowser",
     "pf": "frmLanding",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
+    "reverselayoutdirection": true,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",

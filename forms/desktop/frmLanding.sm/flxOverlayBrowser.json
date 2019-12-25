@@ -39,7 +39,7 @@
         "flxFrameBrowser",
         "btnOpenBrowser"
     ],
-    "clipbounds": true,
+    "clipbounds": false,
     "containerweight": 100,
     "enablescrolling": true,
     "id": "flxOverlayBrowser",
