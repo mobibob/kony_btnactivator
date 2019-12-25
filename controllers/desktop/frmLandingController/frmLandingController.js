@@ -37,6 +37,8 @@ define({
 
     if (this.view.info.browserActive.active) {
       this.view.info.browserActive.active = false;
+      this.view.flxOverlayBrowser.flxFrameBrowser.setVisibility(false);
+
       let optionButtonReposition = 4;
       // Button 
       switch (optionButtonReposition) {
@@ -57,20 +59,17 @@ define({
           this.view.flxOverlayBrowser.btnOpen.top = this.view.flxOverlayBrowser.height - this.view.flxOverlayBrowser.btnOpen.height + "px";
           break;
         case 4:
-          this.view.flxOverlayBrowser.btnOpen.left = 0 + "px";
-          this.view.flxOverlayBrowser.btnOpen.top = 0 + "px";
+          this.view.flxOverlayBrowser.btnOpen.left = 0 + "%";
+          this.view.flxOverlayBrowser.btnOpen.top = 0 + "%";
           break;
       }
       // Frame
-      this.view.flxOverlayBrowser.top = "90%";
-      this.view.flxOverlayBrowser.left = "90%";
+      this.view.flxOverlayBrowser.top = (80.0 + (0.0/2)/ this.stateStore.parent.frame.height).toFixed(1) + "%";  // " 90%";
+      this.view.flxOverlayBrowser.left = (80.0 + (0.0/2)/ this.stateStore.parent.frame.width).toFixed(1) + "%"; //"90%";
       this.view.flxOverlayBrowser.height = this.view.flxOverlayBrowser.btnOpen.frame.height + "px";
       this.view.flxOverlayBrowser.width = this.view.flxOverlayBrowser.btnOpen.frame.width + "px";
     } else {
       this.view.info.browserActive.active = true;
-      // Button 
-      this.view.flxOverlayBrowser.btnOpen.left = this.view.flxOverlayBrowser.frame.width - this.view.flxOverlayBrowser.btnOpen.frame.width + "px";
-      this.view.flxOverlayBrowser.btnOpen.top = 0 + "px";
       // Frame
       this.view.flxOverlayBrowser.setVisibility(true);
       this.view.flxOverlayBrowser.flxFrameBrowser.setVisibility(true);
@@ -79,6 +78,11 @@ define({
       this.view.flxOverlayBrowser.left = this.stateStore.parent.frame.width * 40.0/100.0 + "px";
       this.view.flxOverlayBrowser.height = this.stateStore.parent.frame.height * 80.0/100.0 + "px";
       this.view.flxOverlayBrowser.width = "40%";
+      // Whaaaa ... i hope this isn't necssary, but you never know if there are order dependencies.
+      this.view.forceLayout();
+      // Button 
+      this.view.flxOverlayBrowser.btnOpen.left = 80 + "%"; // this.view.flxOverlayBrowser.frame.width - this.view.flxOverlayBrowser.btnOpen.frame.width + "px";
+      this.view.flxOverlayBrowser.btnOpen.frame.top = 55;
     }
     this.view.forceLayout();
   },
