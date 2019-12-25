@@ -49,7 +49,7 @@
     "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxOverlayBrowser",
+    "parent": "flxOverlaySomething",
     "pf": "frmLanding",
     "snapgridsize": 10,
     "snaptogrid": true,

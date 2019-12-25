@@ -38,7 +38,7 @@
     "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "flxOverlayBrowser"
+        "flxOverlaySomething"
     ],
     "clipbounds": true,
     "containerweight": 100,

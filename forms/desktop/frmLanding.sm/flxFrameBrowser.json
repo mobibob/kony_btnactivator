@@ -48,7 +48,7 @@
     "kuid": "g5b1901d265048648d0f7dc8df54fb29",
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxOverlayBrowser",
+    "parent": "flxOverlaySomething",
     "pf": "frmLanding",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
