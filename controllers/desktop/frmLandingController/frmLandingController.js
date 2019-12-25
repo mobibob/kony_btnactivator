@@ -2,7 +2,7 @@ define({
   
   stateStore: {
 	parent: null,
-    paddingPx: 4, // 'px'
+    paddingPx: 0, // 'px'
   }, 
 
  //Type your controller code here 
@@ -75,14 +75,14 @@ define({
       this.view.flxOverlaySomething.flxFrameBrowser.setVisibility(true);
       this.view.flxOverlaySomething.flxFrameBrowser.browser.setVisibility(true);
       this.view.flxOverlaySomething.top = this.stateStore.parent.frame.height - this.stateStore.parent.frame.height * 80.0/100.0 - this.view.flxOverlaySomething.btnOpen.frame.height + "px";
-      this.view.flxOverlaySomething.left = this.stateStore.parent.frame.width * 40.0/100.0 + "px";
+      this.view.flxOverlaySomething.left = this.stateStore.parent.frame.width - ((this.stateStore.parent.frame.width - 110) * 60.0/100.0) + "px";
       this.view.flxOverlaySomething.height = this.stateStore.parent.frame.height * 80.0/100.0 + "px";
       this.view.flxOverlaySomething.width = "40%";
       // Whaaaa ... i hope this isn't necssary, but you never know if there are order dependencies.
       this.view.forceLayout();
       // Button 
       this.view.flxOverlaySomething.btnOpen.left = 80 + "%"; // this.view.flxOverlaySomething.frame.width - this.view.flxOverlaySomething.btnOpen.frame.width + "px";
-      this.view.flxOverlaySomething.btnOpen.frame.top = 55;
+      this.view.flxOverlaySomething.btnOpen.frame.top = 90 + "%";
     }
     this.view.forceLayout();
   },
